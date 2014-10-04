@@ -8,6 +8,16 @@
     "type": "git",
     "url": "https://github.com/reintroducing/threshold-gulp.git"
   },
+  "keywords": [
+    "matt przybylski",
+    "threshold",
+    "gulp",
+    "html",
+    "css",
+    "js",
+    "javascript",
+    "front end"
+  ],
   "devDependencies": {
     "browser-sync": "^1.5.2",
     "del": "^0.1.2",
