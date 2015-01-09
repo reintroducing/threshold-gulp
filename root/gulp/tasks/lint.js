@@ -15,5 +15,5 @@ gulp.task('lint', function() {
         .pipe(jshint('.jshintrc'))
         .pipe(jshint.reporter('jshint-stylish'))
         .pipe(jshint.reporter('fail'))
-        .on('error', handleErrors)
+        .on('error', handleErrors);
 });
