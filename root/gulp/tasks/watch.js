@@ -6,8 +6,6 @@ var gulp = require('gulp'),
     config = require('../config.json');
 
 gulp.task('watch', function() {
-    global.isWatching = true;
-
     watch(config.dev + 'index.html', function(files, cb) {
             browserSync.reload();
         });
