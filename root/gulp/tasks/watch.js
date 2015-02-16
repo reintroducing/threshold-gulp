@@ -6,12 +6,14 @@ var gulp = require('gulp'),
     config = require('../config.json');
 
 gulp.task('watch', function() {
+    global.isWatching = true;
+
     watch(config.dev + 'index.html', function(files, cb) {
             browserSync.reload();
         });
 
     watch(config.sass + '/**/*.scss', function(files, cb) {
-            gulp.start('compass-dev', cb);
+            gulp.start('sass', cb);
         });
 
     watch([

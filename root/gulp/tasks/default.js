@@ -5,10 +5,10 @@ var gulp = require('gulp'),
 
 gulp.task('default', function(cb) {
     runSequence([
-            'compass-dev',
+            'sass',
             'lint',
         ],
-        'browser-sync',
         'watch',
+        'browser-sync',
         cb);
 });
