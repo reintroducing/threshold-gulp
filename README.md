@@ -1,3 +1,5 @@
+**DEPRECATED! Use [generator-threshold](https://github.com/reintroducing/generator-threshold) instead!**
+
 # threshold-gulp
 
 > Create a front end dev boilerplate with [grunt-init][], including a Gulp workflow.
